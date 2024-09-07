@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.search-bar input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #ff3e6c;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    color: white;
+}
+
+.user-options a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 500px;
+}
+
+.brands-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.brands-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.brand-item {
+    width: 280px; 
+    height: 380px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brand-item img {
+    width: 100%; 
+    height: 380px; 
+    object-fit: cover; 
+    border-radius: 8px;
+}
+
+.brand-description {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.brand-description span {
+    font-size: 12px;
+    color: #777;
+    display: block;
+    margin-top: 5px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.footer .footer-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer .footer-column {
+    flex: 1;
+    min-width: 150px;
+    margin-right: 20px;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .social-media,
+.footer .app-download,
+.footer .policies {
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.social-media img,
+.app-download img {
+    width: 100px;
+    margin: 5px;
+}
+
+.footer .footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
